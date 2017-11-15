@@ -1,0 +1,2 @@
+# SPSC Bounded Queue
+This is a C++ implementaion of wait-free SPSC queue based on atomic operaions. Calls to Enqueue() Dequeue() are guaranteed to be bounded in a finite period of time for all threads.
